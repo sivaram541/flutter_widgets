@@ -60,29 +60,23 @@ Widget myWidget() {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[renderCircle()],
         ),
-        Padding(
-          padding: EdgeInsets.all(8.0),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             //crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              //Padding(padding: EdgeInsets.all(2.0)),
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.all(2.0),
                   child: MyButtonTheme("Stop", Colors.red),
                 ),
               ),
-              //Padding(padding: EdgeInsets.all(2.0)),
               Expanded(
                 child: Padding(
                     padding: const EdgeInsets.all(2.0),
                     child: MyButtonTheme("Restart", Colors.green)),
               ),
-              //Padding(padding: EdgeInsets.all(2.0)),
             ],
           ),
-        ),
       ],
     ),
   );

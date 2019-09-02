@@ -11,11 +11,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.indigoAccent,
-          title: Text('Widgets Demo'),
+          backgroundColor: Colors.red,
+          title: Text('Saibaba Widgets Demo'),
         ),
         body: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             CheckBoxWidget(),
             Chip(
@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
           onPressed: () {
             print('FAB clicked');
           },
-          child: Text('Add'),
+          child: Text('+'),
         ),
       ),
     );

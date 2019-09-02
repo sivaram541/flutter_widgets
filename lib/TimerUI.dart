@@ -45,7 +45,7 @@ Widget myWidget() {
       width: 200,
       child: IntrinsicWidth(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             MyButtonTheme("Work", Colors.redAccent),
